@@ -1,0 +1,74 @@
+{
+	"profile" : {
+	  "firstname" : "Mark"
+	, "lastname" : "Thompson"
+	, "phone" : "(214) 361-5338"
+	, "addresses" : [
+			{
+			"primary" : true
+			,"address1" : "8687 North Park Center"
+			, "address2" : ""
+			, "city" : "Dallas"
+			, "state" : "TX"
+			, "ZIP" : "75225"
+			}
+			,
+			{
+			"address1" : "13350 Dallas Parkway"
+			, "address2" : ""
+			, "city" : "Dallas"
+			, "state" : "TX"
+			, "ZIP" : "75240"
+			}
+		]
+	}
+	,
+	"products" : [
+	{
+	  	 "name" : "testname1"
+		, "sku" : "testsku1"
+	}
+	,
+	{
+	  "name" : "testname2"
+	, "sku" : "testsku2"
+
+	}
+	]
+	,
+	"wishlists" : [
+	{
+		"id": "testid"
+	}
+	]
+	,
+	"orderhistory" : [
+	]
+	,
+	"creditcards" :
+	[
+	{
+		 "cardType" : "MasterCard"
+		, "cardNumber" : "1111"
+		, "cardMonth" : [
+			{"i2": true}
+			]
+		, "cardYear" : [
+			{"i1": true}	
+			]
+	}
+	,
+	{
+		 "cardType" : "MasterCard"
+		, "cardNumber" : "3333"
+		, "cardMonth" : [
+			{"i5": true}
+			]
+		, "cardYear" : [
+			{"i2": true}	
+			]
+	}
+	]
+
+
+}

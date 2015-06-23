@@ -1,0 +1,611 @@
+						<div id="contentPadding">
+
+		  <div id="accountCol1">
+				<h3><strong>CREATE A NEW ACCOUNT (STEP 2 OF 2)</strong></h3>
+				<p class="infoText">Thank you for registering a new account with fossil. To complete registration, fill out the form below.</p>
+				<div id="loginForm" class="clearfix">
+				  <img id="secureLogin" src="/wcsstore/CommonFossil/images/shell/icons/secure.png" />
+					<div id="loginFormInner" class="clearfix">
+	
+						<form accept-charset="UTF-8" action="/en_US/shop/account/dashboard" method="post" id="MyInformation" class="validate" name="info">
+							<input type="hidden" name="errorViewName" value="MyInformationView" />
+	                        <input type="hidden" name="langId" value="{{store.langId}}" />
+	                        <input type="hidden" name="catalogId" value="{{store.catalogId}}" />
+	                        <input type="hidden" name="storeId" value="{{store.storeId}}" />
+							<input type="hidden" name="URL" value="LogonForm" />
+							<input type="hidden" name="editRegistration" value="Y" />
+							<input type="hidden" name="email1" value="email@address.com" />
+							
+							<input type="hidden" name="signupEmail" value="email@address.com" />
+							<input type="hidden" name="optInsignupmailingListId" value="55766" />
+							<input type="hidden" name="logonPassword" value="" />
+							<input type="hidden" name="logonPasswordVerify" value="" />
+			<div class="nameMyInfo">
+              <h3 class="registerLabel personalizeAccount">PERSONALIZE MY ACCOUNT</h3>
+              <div class="requiredlabel">(required)</div>
+              <div class="nameInputs wrapper">
+                <label for="userFirstName" class="userName">My name is</label>
+                <input type="text" value="" id="userFirstName" class="required validate" name="firstName" placeHolder="First Name" />
+                <input type="text" value="" id="userLastName" class="required validate" name="lastName" placeHolder="Last Name" />
+              </div>
+
+             <div class="aboutYou clearfix">
+                <div class="tellUs"><p>Tell us about yourself and we'll try our best to make your Fossil experience more personal.</p></div>
+                <div class="gender">
+                  <div class="genderLabel">I am</div>
+                  <div class="genderOpts">
+                    <div id="femaleGenderWrapper" class="wrapper genWrapper">
+                      <input type="radio" name="gender_12052_r" value="female" id="femaleGender" />
+                      <label for="femaleGender">Female</label>
+                    </div>
+                    <div id="maleGenderWrapper" class="wrapper genWrapper">
+                      <input type="radio" name="gender_12052_r" value="male" id="maleGender" />
+                      <label for="maleGender">Male</label>
+                    </div>
+                  </div>
+                </div>
+                
+				<!-- 
+                <div class="age">
+                  <label for="ageSelect">and my age is</label>
+                  <select id="ageSelect" name="agerange_12052_r" type="" class="">
+						<option value="0" selected>
+							Select
+						</option>		
+						<option value="1" >
+							13-20
+						</option>
+						<option value="2" >
+							21-30
+						</option>
+						<option value="3" >
+							31-40
+						</option>
+						<option value="4" >
+							41-50
+						</option>
+						<option value="5" >
+							51-60
+						</option>
+						<option value="6" >
+							Over 60
+						</option>
+				 </select>
+                               
+                </div> -->
+                
+               
+
+               <div class="birthMonth">
+                  <label for="birthSelect">I celebrate my birthday in</label>
+                  <select id="birthSelect" name="birthmonth_12052_r" type="" class="">
+						<option value="Select" selected>
+                              Select
+                          </option>
+                          <option value="January" >
+                              January
+                          </option> 
+                          <option value="February" >
+                              February
+                          </option> 
+                          <option value="March" >
+                              March
+                          </option> 
+                          <option value="April" >
+                              April
+                          </option> 
+                          <option value="May">
+                              May
+                          </option> 
+                          <option value="June">
+                              June
+                          </option> 
+                          <option value="July" >
+                              July
+                          </option> 
+                          <option value="August" >
+                              August
+                          </option> 
+                          <option value="September" >
+                              September
+                          </option> 
+                          <option value="October" >
+                              October
+                          </option> 
+                          <option value="November" >
+                              November
+                          </option> 
+                          <option value="December" >
+                              December
+                          </option>
+					</select>
+                </div>
+             
+                <div class="youEnjoy">
+                  <div class="enjoyOptionsLabel">I enjoy</div>
+                  <div class="enjoyOptions">
+                    <div class="fashionWrapper enjoyItem">
+                    <input type="checkbox" name="enjoys_12052_r_1" value="fashion" id="enjoy_fashion">
+                    <label for="enjoy_fashion">Fashion</label></div><div class="artWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_2" value="art" id="enjoy_art">
+                    <label for="enjoy_art">Art</label></div><div class="craftsWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_3" value="crafts" id="enjoy_crafts">
+                    <label for="enjoy_crafts">Crafts</label></div><div class="musicWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_4" value="music" id="enjoy_music">
+                    <label for="enjoy_music">Music</label></div><div class="booksWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_5" value="books" id="enjoy_books">
+                    <label for="enjoy_books">Books</label></div><div class="techWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_6" value="tech" id="enjoy_tech">
+                    <label for="enjoy_tech">Technology</label></div><div class="collectiblesWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_7" value="collectibles" id="enjoy_collectibles">
+                    <label for="enjoy_collectibles">Collectibles</label></div><div class="animalsWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_8" value="animals" id="enjoy_animals">
+                    <label for="enjoy_animals">Animals</label></div><div class="travelWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_9" value="travel" id="enjoy_travel">
+                    <label for="enjoy_travel">Travel</label></div><div class="diningWrapper enjoyItem">
+                    
+                    <input type="checkbox" name="enjoys_12052_r_10" value="dining" id="enjoy_dining">
+                    <label for="enjoy_dining">Dining</label></div></div>
+                </div>
+
+				<div class="fossilFavsWrapper">
+                  <div class="fossilFavLabel">My favorite Fossil product categories are</div>
+                  <div class="fossilFavOptions">
+                    <div class="watchesWrapper favItem">
+                    <input type="checkbox" name="favorite_12052_r_1" value="watches" id="fav_watches">
+                    <label for="fav_watches">Watches</label></div><div class="bagsWrapper favItem">
+                    
+                    <input type="checkbox" name="favorite_12052_r_2" value="bags" id="fav_bags">
+                    <label for="fav_bags">Bags/Leather Goods</label></div><div class="clothingWrapper favItem">
+                    
+                    <input type="checkbox" name="favorite_12052_r_3" value="clothing" id="fav_clothing">
+                    <label for="fav_clothing">Clothing</label></div><div class="shoesWrapper favItem">
+                    
+                    <input type="checkbox" name="favorite_12052_r_4" value="shoes" id="fav_shoes">
+                    <label for="fav_shoes">Shoes</label></div><div class="jewelryWrapper favItem">
+                    
+                    <input type="checkbox" name="favorite_12052_r_5" value="jewelry" id="fav_jewelry">
+                    <label for="fav_jewelry">Jewelry</label></div><div class="findsWrapper favItem">
+                    
+                    <input type="checkbox" name="favorite_12052_r_6" value="finds" id="fav_finds">
+                    <label for="fav_finds">Fossil Finds</label></div><div class="accWrapper favItem">
+                    
+                    <input type="checkbox" name="favorite_12052_r_7" value="acc" id="fav_acc">
+                    <label for="fav_acc">Accessories</label></div>              
+                  </div>
+                </div>
+                
+                <div class="email-signup clearfix">
+
+					<h3 class="registerLabel personalizeAccount">Email Newsletter</h3>
+	
+					<div id="email-checkbox-wrapper" class="email-checkbox-wrapper">
+					<input type="checkbox" id="accept-email" class="accept-email" name="optIn_12052_r"  />							
+					<label for="accept-email">Send me email about Fossil products and news</label>
+
+			
+					<div class="privacyPolicy"><a href="/webapp/wcs/stores/servlet/ContentView?storeId=12052&amp;page=customerCare_securityPrivacy&amp;catalogId=25005&amp;langId=-1">Our privacy and security policy &gt;</a></div>
+				<!-- Not sure of the form requirements at this time -->
+					<div id="emailSignup">
+					
+						<div class="inputWrapper">
+						<input type="text" name="email_12052_r" class="required wide validate" id="emailAddress" value="" placeholder="Email">
+					</div>
+				
+					</div>
+					</div>
+				</div>
+				
+				
+				<div class="catalog-signup clearfix">
+
+				<h3 class="registerLabel personalizeAccount">Catalog Signup</h3>
+				<p>Many of our customers like us to send them product catalogs. Fill out the form below and we will add you to the list!</p>
+				<p>Please note that we are currently only able to send catalogs to addresses in the U.S.</p>
+														
+						<div id="catalog-checkbox-wrapper" class="catalog-checkbox-wrapper">
+						<input type="checkbox" id="accept-catalog" class="accept-catalog" name="catalogOptIn_12052_r" >
+						<label for="accept-catalog">Send me email about Fossil products and news</label>
+					</div>
+				
+							
+					<!-- Not sure of the form requirements at this time -->
+						
+						<div id="catalogRequest">												
+						<input type="hidden" name="optInCatalogmailingListId" value="55766" />																				
+
+						
+
+		<input type="hidden" name="country" value="US" />
+		<div class="inputWrapper"><input name="FirstName_12052_r" type="text" class="firstName required" id="firstName" value="" placeholder="First Name"></div>
+		<div class="inputWrapper"><input name="LastName_12052_r" type="text" class="lastName required" id="lastName" value="" placeholder="Last Name"></div>
+		<div class="breaker"></div>
+		
+		<div class="inputWrapper"><input name="Address1_12052_r" type="text" class="address1 required wide" id="address1" value="" placeholder="Address"></div>
+		<div class="breaker"></div>
+		
+		<div class="inputWrapper"><input name="Address2_12052_r" type="text" class="address2 wide" id="address2" value="" placeholder="Address Line 2"></div>
+		<div class="breaker"></div>
+		
+		<div class="inputWrapper"><input name="City_12052_r" type="text" class="required city wide" id="city" value="" placeholder="City"></div>
+		<div class="breaker"></div>				
+		<div class="inputWrapper">		
+			
+					<select  name="State_12052_r" type="text" class="required state">
+						<label>
+							<option value="">Select State</option>
+							
+								<option value="AL"
+									
+									><!-- very important this closes the opening option element -->Alabama
+								</option>
+							
+								<option value="AK"
+									
+									><!-- very important this closes the opening option element -->Alaska
+								</option>
+							
+								<option value="AS"
+									
+									><!-- very important this closes the opening option element -->American Samoa
+								</option>
+							
+								<option value="AZ"
+									
+									><!-- very important this closes the opening option element -->Arizona
+								</option>
+							
+								<option value="AR"
+									
+									><!-- very important this closes the opening option element -->Arkansas
+								</option>
+							
+								<option value="AFA"
+									
+									><!-- very important this closes the opening option element -->Armed Forces Africa
+								</option>
+							
+								<option value="AA"
+									
+									><!-- very important this closes the opening option element -->Armed Forces Americas
+								</option>
+							
+								<option value="AFC"
+									
+									><!-- very important this closes the opening option element -->Armed Forces Canada
+								</option>
+							
+								<option value="AE"
+									
+									><!-- very important this closes the opening option element -->Armed Forces Europe
+								</option>
+							
+								<option value="AFM"
+									
+									><!-- very important this closes the opening option element -->Armed Forces Middle East
+								</option>
+							
+								<option value="AP"
+									
+									><!-- very important this closes the opening option element -->Armed Forces Pacific
+								</option>
+							
+								<option value="CA"
+									
+									><!-- very important this closes the opening option element -->California
+								</option>
+							
+								<option value="CO"
+									
+									><!-- very important this closes the opening option element -->Colorado
+								</option>
+							
+								<option value="CT"
+									
+									><!-- very important this closes the opening option element -->Connecticut
+								</option>
+							
+								<option value="DE"
+									
+									><!-- very important this closes the opening option element -->Delaware
+								</option>
+							
+								<option value="DC"
+									
+									><!-- very important this closes the opening option element -->District of Columbia
+								</option>
+							
+								<option value="FL"
+									
+									><!-- very important this closes the opening option element -->Florida
+								</option>
+							
+								<option value="GA"
+									
+									><!-- very important this closes the opening option element -->Georgia
+								</option>
+							
+								<option value="GU"
+									
+									><!-- very important this closes the opening option element -->Guam
+								</option>
+							
+								<option value="HI"
+									
+									><!-- very important this closes the opening option element -->Hawaii
+								</option>
+							
+								<option value="ID"
+									
+									><!-- very important this closes the opening option element -->Idaho
+								</option>
+							
+								<option value="IL"
+									
+									><!-- very important this closes the opening option element -->Illinois
+								</option>
+							
+								<option value="IN"
+									
+									><!-- very important this closes the opening option element -->Indiana
+								</option>
+							
+								<option value="IA"
+									
+									><!-- very important this closes the opening option element -->Iowa
+								</option>
+							
+								<option value="KS"
+									
+									><!-- very important this closes the opening option element -->Kansas
+								</option>
+							
+								<option value="KY"
+									
+									><!-- very important this closes the opening option element -->Kentucky
+								</option>
+							
+								<option value="LA"
+									
+									><!-- very important this closes the opening option element -->Louisiana
+								</option>
+							
+								<option value="ME"
+									
+									><!-- very important this closes the opening option element -->Maine
+								</option>
+							
+								<option value="MD"
+									
+									><!-- very important this closes the opening option element -->Maryland
+								</option>
+							
+								<option value="MA"
+									
+									><!-- very important this closes the opening option element -->Massachusetts
+								</option>
+							
+								<option value="MI"
+									
+									><!-- very important this closes the opening option element -->Michigan
+								</option>
+							
+								<option value="MN"
+									
+									><!-- very important this closes the opening option element -->Minnesota
+								</option>
+							
+								<option value="MS"
+									
+									><!-- very important this closes the opening option element -->Mississippi
+								</option>
+							
+								<option value="MO"
+									
+									><!-- very important this closes the opening option element -->Missouri
+								</option>
+							
+								<option value="MT"
+									
+									><!-- very important this closes the opening option element -->Montana
+								</option>
+							
+								<option value="NE"
+									
+									><!-- very important this closes the opening option element -->Nebraska
+								</option>
+							
+								<option value="NV"
+									
+									><!-- very important this closes the opening option element -->Nevada
+								</option>
+							
+								<option value="NH"
+									
+									><!-- very important this closes the opening option element -->New Hampshire
+								</option>
+							
+								<option value="NJ"
+									
+									><!-- very important this closes the opening option element -->New Jersey
+								</option>
+							
+								<option value="NM"
+									
+									><!-- very important this closes the opening option element -->New Mexico
+								</option>
+							
+								<option value="NY"
+									
+									><!-- very important this closes the opening option element -->New York
+								</option>
+							
+								<option value="NC"
+									
+									><!-- very important this closes the opening option element -->North Carolina
+								</option>
+							
+								<option value="ND"
+									
+									><!-- very important this closes the opening option element -->North Dakota
+								</option>
+							
+								<option value="MP"
+									
+									><!-- very important this closes the opening option element -->Northern Mariana Islands
+								</option>
+							
+								<option value="OH"
+									
+									><!-- very important this closes the opening option element -->Ohio
+								</option>
+							
+								<option value="OK"
+									
+									><!-- very important this closes the opening option element -->Oklahoma
+								</option>
+							
+								<option value="OR"
+									
+									><!-- very important this closes the opening option element -->Oregon
+								</option>
+							
+								<option value="PW"
+									
+									><!-- very important this closes the opening option element -->Palau
+								</option>
+							
+								<option value="PA"
+									
+									><!-- very important this closes the opening option element -->Pennsylvania
+								</option>
+							
+								<option value="PR"
+									
+									><!-- very important this closes the opening option element -->Puerto Rico
+								</option>
+							
+								<option value="RI"
+									
+									><!-- very important this closes the opening option element -->Rhode Island
+								</option>
+							
+								<option value="SC"
+									
+									><!-- very important this closes the opening option element -->South Carolina
+								</option>
+							
+								<option value="SD"
+									
+									><!-- very important this closes the opening option element -->South Dakota
+								</option>
+							
+								<option value="TN"
+									
+									><!-- very important this closes the opening option element -->Tennessee
+								</option>
+							
+								<option value="TX"
+									
+									><!-- very important this closes the opening option element -->Texas
+								</option>
+							
+								<option value="VI"
+									
+									><!-- very important this closes the opening option element -->U.S. Virgin Islands
+								</option>
+							
+								<option value="UT"
+									
+									><!-- very important this closes the opening option element -->Utah
+								</option>
+							
+								<option value="VT"
+									
+									><!-- very important this closes the opening option element -->Vermont
+								</option>
+							
+								<option value="VA"
+									
+									><!-- very important this closes the opening option element -->Virginia
+								</option>
+							
+								<option value="WA"
+									
+									><!-- very important this closes the opening option element -->Washington
+								</option>
+							
+								<option value="WV"
+									
+									><!-- very important this closes the opening option element -->West Virginia
+								</option>
+							
+								<option value="WI"
+									
+									><!-- very important this closes the opening option element -->Wisconsin
+								</option>
+							
+								<option value="WY"
+									
+									><!-- very important this closes the opening option element -->Wyoming
+								</option>
+							
+						</label>
+					</select>
+								
+		</div>
+		<div class="inputWrapper"><input name="Zip_12052_r" type="text" class="required zip text" id="zip" value="" placeholder="Zip Code"></div>
+		<div class="breaker"></div>
+
+
+						<div class="inputWrapper"><input name="catalogEmail_12052_r" type="text" class="required email wide" id="email" value="" placeholder="Email"></div>
+						<div class="breaker"></div>
+						
+						</div>
+						
+					</div>
+				
+                
+                </div>
+                </div>
+					<div id="registerButtons">
+							<button type="submit"  class="primary"  id="saveShop"  name="infoSubmitButton"><span class="buttonLeft">
+	<span class="buttonRight">
+		<span class="buttonContent">
+			Save
+		</span>
+	</span>
+</span>
+							</button>										         
+					</div>
+						</form>
+	
+					</div>
+				</div><!-- //End Login Form-->
+			
+			<div id="registerFillSlots">
+				        <!-- 
+				
+				This is the fillslot for new user registration
+				
+				
+				-->
+			        </div>
+			</div>
+		<!--//End accountContents-->
+		
+	<div id="accountCol2">
+			{{>myAccount_ccInfo}}
+					
+		</div>
+
+
+						</div>

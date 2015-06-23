@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.audioVideo.videoChannels{	public class controller	{				//put all your STATIC variables here... use for state maintenance								public function controller () 		{					}									}		}

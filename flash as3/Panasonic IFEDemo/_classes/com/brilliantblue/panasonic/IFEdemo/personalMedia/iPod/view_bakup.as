@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.personalMedia.iPod{	import flash.display.MovieClip;	import com.brilliantblue.panasonic.IFEdemo.view;			public class view extends com.brilliantblue.panasonic.IFEdemo.view	{				public function view () 		{																	}									}		}

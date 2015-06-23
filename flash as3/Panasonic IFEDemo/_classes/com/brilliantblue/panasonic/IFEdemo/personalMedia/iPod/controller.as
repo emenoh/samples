@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.personalMedia.iPod{	public class controller extends com.brilliantblue.panasonic.IFEdemo.controller	{				//put all your STATIC variables here... use for state maintenance								public function controller () 		{					}									}		}

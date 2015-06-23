@@ -1,0 +1,35 @@
+{
+	"CatalogGroupView": [
+		{
+			"fullImage": "",
+			"fullImageAltDescription": "",
+			"identifier": "FSSCWomensShopRoseTones",
+			"longDescription": "",
+			"metaDescription": "",
+			"metaKeyword": "",
+			"name": "A Touch Of Rose",
+			"parentCatalogGroupID": [
+				"331182"
+			],
+			"productsURL": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/productview\/byCategory\/331194",
+			"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/331194",
+			"shortDescription": "",
+			"thumbnail": "",
+			"title": "",
+			"uniqueID": "331194",
+			"xcatgroup_Identifier": "FSSCWomensShopRoseTones"
+		}
+	],
+	"MetaData": [
+		{
+			"metaData": "1",
+			"metaKey": "price"
+		}
+	],
+	"recordSetComplete": "true",
+	"recordSetCount": "1",
+	"recordSetStartNumber": "0",
+	"recordSetTotal": "1",
+	"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/331194",
+	"resourceName": "categoryview"
+}

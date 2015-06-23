@@ -1,0 +1,209 @@
+
+<div id="banner">
+								<img alt="banner_sub_customer_care" src="/wcsstore/Fossil/images/en_US/banners/secondary/banner_sub_my_account.gif">
+								<p>{{page.heading}}</p>
+                        	</div>
+                        	<div id="eSpot1">
+                        		<div id="eSpot1Padd">
+								<!-- Start - JSP File Name: eMarketingSpotDisplay.jsp --><!--
+	<table>
+	<tr><td>MarketingSpotIdentifier UniqueID:</td> <td> 12022 </td></tr>
+	<tr><td>MarketingSpotIdentifier Name:</td> <td> GLOBAL_ESPOT_1 </td></tr>
+	<tr><td>MarketingSpotIdentifier categoryIdentifier:</td> <td>  </td></tr>	
+	<tr><td>MarketingSpotIdentifier parentCategoryIdentifier:</td> <td>  </td></tr>	
+	</table>			
+-->
+
+<!-- <h4>Categories</h4> -->
+  <!-- <h4>Catalog Entries</h4> -->
+  <!-- <h4>Content</h4> -->
+	<!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+                   				</div>
+                        	</div>
+                   		<div id="contentPadding" class="contentBody">
+           					<!-- BEGIN FSFormErrorDisplay.jsp --><!-- END FSFormErrorDisplay.jsp -->
+                   			<h1 class="formTitle">
+                   				{{strings.SC_PAGENAME}}
+                   			</h1>
+                   				
+							
+									<div class="existWrapper">
+										<table border="0" cellpadding="0" width="600" cellspacing="0">
+											<tr>
+												<th colspan="6" class="ccHeader">
+													{{strings.FOSSIL_MYA_WALLET_CC_ON_FILE}}
+												</th>
+											</tr>
+											<tr class="ccLabel">
+												<td>{{strings.STORE_FORM_CARD_TYPE_LABEL}}</td>
+												<td>{{strings.STORE_FORM_CARD_NUMBER_LABEL}}</td>
+												<td>{{strings.STORE_FORM_CARD_EXPIRY_LABEL}}</td>
+											</tr>
+					  				
+				  
+				  					 	<form id="updateCreditCard" name="updateCreditCard_" method="post" action="/webapp/wcs/stores/servlet/FSWalletCCEdit">
+											<input type="hidden" name="storeId"value="12052" />
+											<input type="hidden" name="catalogId"value="25005" />
+											<input type="hidden" name="langId" value="-1" />
+											<input type="hidden" name="orderId" value="306932882"/>													
+											<input type="hidden" name="URL" value="WalletEditView"/>													
+											<input type="hidden" name="errorTaskName" value="WalletEditView"/>	
+						                	<input type="hidden" name="walletform" value="edit"/>
+						                	
+				                			{{#user.creditcards}}
+					                		<tr class="itemRow ccrow">
+				                		
+											
+												<td class="cardType">
+							  				      	
+															<img src="/wcsstore/Fossil/images/en_US/icons/Icon_mastercard.gif" alt="{{cardtype}}" title="{{cardtype}}" />
+														
+												</td>
+												<td class="cardNumber">xxxx-xxxx-xxxx-{{cardNumber}}</td>
+												<td class="cardMonth">
+						                              <select name="pay_expire_month" id="updateCcMonth">
+						                              	{{#cardMonth}}
+														<option {{#i1}}selected{{/i1}}>01</option>
+														<option {{#i2}}selected{{/i2}}>02</option>
+														<option {{#i3}}selected{{/i3}}>03</option>
+														<option {{#i4}}selected{{/i4}}>04</option>
+														<option {{#i5}}selected{{/i5}}>05</option>
+														<option {{#i6}}selected{{/i6}}>06</option>
+														<option {{#i7}}selected{{/i7}}>07</option>
+														<option {{#i8}}selected{{/i8}}>08</option>
+														<option {{#i9}}selected{{/i9}}>09</option>
+														<option {{#i10}}selected{{/i10}}>10</option>
+														<option {{#i11}}selected{{/i11}}>11</option>
+														<option {{#i12}}selected{{/i12}}>12</option>
+														{{/cardMonth}}
+						                              </select>
+												</td>
+												<td class="cardYear">
+													<select name="pay_expire_year" id="updateCcYear">
+						                              	{{#cardYear}}
+														<option {{#i1}}selected{{/i1}}>2013</option>
+														<option {{#i2}}selected{{/i2}}>2014</option>
+														<option {{#i3}}selected{{/i3}}>2015</option>
+														<option {{#i4}}selected{{/i4}}>2016</option>
+														<option {{#i5}}selected{{/i5}}>2017</option>
+														<option {{#i6}}selected{{/i6}}>2018</option>
+														<option {{#i7}}selected{{/i7}}>2019</option>
+														<option {{#i8}}selected{{/i8}}>2020</option>
+														<option {{#i9}}selected{{/i9}}>2021</option>
+														<option {{#i10}}selected{{/i10}}>2022</option>
+														<option {{#i11}}selected{{/i11}}>2023</option>
+														{{/cardYear}}
+													</select>
+												</td>
+												<td class="cardUpdate">
+													<button name="creditCardUpdateButton" id="creditCardUpdateButton">
+														<span class="buttonLeft">
+	<span class="buttonRight">
+		<span class="buttonContent">
+			{{strings.MA_SC_FORM_UPDATE_ACTION_LABEL}}
+		</span>
+	</span>
+</span>
+													</button>
+												</td>
+												<td class="cardRemove">
+								                    
+							                    	<a href="https://www.fossil.com/webapp/wcs/stores/servlet/FSWalletCCRemove?langId=-1&storeId=12052&catalogId=25005&orderId=306932882&URL=WalletEditView&errorTaskName=WalletEditView" >
+							                    		{{strings.REMOVE_ITEM}}
+							                    	</a>
+												</td>
+											</tr>
+											{{/user.creditcards}}
+										</form>
+									
+											</table>
+										</div><!--end existWrapper -->
+							
+							<div class="addWrapper">
+								<form id="addCreditCard" name="addCreditCardForm" class="validate errors" method="post" action="/webapp/wcs/stores/servlet/FSWalletCCEdit">
+									<input type="hidden" name="storeId"value="12052" />
+									<input type="hidden" name="catalogId"value="25005" />
+									<input type="hidden" name="langId" value='-1' />
+									<input type="hidden" name="URL" value="WalletEditView"/>
+									<input type="hidden" name="errorTaskName" value="WalletEditView"/>
+									<input type="hidden" name="walletform" value="add"/>
+
+									<table border="0" cellpadding="0" width="600" cellspacing="0">
+										<tr>
+											<th colspan="6" class="ccHeader">
+												{{strings.FOSSIL_MYA_WALLET_CC_ADD}}
+											</th>
+										<tr class="ccLabel">											
+											<td>{{strings.STORE_FORM_CARD_TYPE_LABEL}}</td>
+											<td>{{strings.STORE_FORM_CARD_NUMBER_LABEL}}</td>
+											<td>{{strings.STORE_FORM_CARD_EXPIRY_LABEL}}</td>
+										</tr>
+										<tr>
+											<td class="cardType">
+					                        	<select name="pay_cc_brand" id="ccType">
+													<option value="">{{strings.STORE_FORM_SELECT_INPUT_DEFAULT_OPTION}}</option>
+													<option value="VISA">{{strings.STORE_FORM_SELECT_VISA_OPTION}}</option>
+													<option value="MAST">{{strings.STORE_FORM_SELECT_MAST_OPTION}}</option>
+													<option value="AMEX">{{strings.STORE_FORM_SELECT_AMEX_OPTION}}</option>					
+													<option value="DISC">{{strings.STORE_FORM_SELECT_DISC_OPTION}}</option>
+													
+					                        	</select>
+											</td>
+											<td class="cardNumber">
+												<input name="pay_account" type="text" size="20"/>
+											</td>
+											<td class="cardMonth">
+												<select name="pay_expire_month" id="ccMonth">
+													<option value="">
+														{{strings.STORE_FORM_CARD_MONTH_LABEL}}
+													</option>
+													<option value="01">01</option>
+													<option value="02">02</option>
+													<option value="03">03</option>
+													<option value="04">04</option>
+													<option value="05">05</option>
+													<option value="06">06</option>
+													<option value="07">07</option>
+													<option value="08">08</option>
+													<option value="09">09</option>
+													<option value="10">10</option>
+													<option value="11">11</option>
+													<option value="12">12</option>
+												</select>
+											</td>
+											<td class="cardYear">
+												<select name="pay_expire_year" id="ccYear">
+													<option value=""> 
+														{{strings.STORE_FORM_CARD_YEAR_LABEL}}
+													</option>
+													<option value="2013">2013</option>
+													<option value="2014">2014</option>
+													<option value="2015">2015</option>
+													<option value="2016">2016</option>
+													<option value="2017">2017</option>
+													<option value="2018">2018</option>
+													<option value="2019">2019</option>
+													<option value="2020">2020</option>
+													<option value="2021">2021</option>
+													<option value="2022">2022</option>
+													<option value="2023">2023</option>
+												</select>
+											</td>
+											<td class="cardUpdate">
+												<button name=" addCreditCardButton" id="addCreditCardButton">
+													<span class="buttonLeft">
+	<span class="buttonRight">
+		<span class="buttonContent">
+			{{strings.MA_SC_FORM_ADD_ACTION_LABEL}}
+		</span>
+	</span>
+</span>
+												</button>
+											</td>
+											<td class="cardRemove">&nbsp;</td>
+										</tr>
+									</table>
+								</form>
+							</div><!-- end addwrapper -->
+                        </div>
+                        <div class="breaker"></div>

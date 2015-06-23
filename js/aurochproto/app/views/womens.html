@@ -1,0 +1,61 @@
+
+<div id="tiles" class="column8 us">
+  <div id="wBox0" class="womensTile box">
+      <a href="331106" class="fullImgLink" data-tag="12.26WDP_ShopWatches_WWatchStyles">
+        <img alt="SHOP WATCHES" src="/wcsstore/CommonFossil/images/shell/spacer.gif" data-original="/wcsstore/CommonFossil/images/common/dept/womens/0_0.jpg" />
+        <span class="cta"><h1 class="fit" min="17px">SHOP WATCHES</h1></span>
+      </a>
+  </div>
+<div id="rightCol">
+  <div id="wBox1" class="womensTile box">
+      <a href="331138" class="fullImgLink" data-tag="12.26WDP_ShopHandbags_HandbagsSilhouettes">
+        <img alt="SHOP HANDBAGS" src="/wcsstore/CommonFossil/images/shell/spacer.gif" data-original="/wcsstore/CommonFossil/images/common/dept/womens/0_1.jpg" />
+        <span class="cta"><h1 class="fit" min="17px">SHOP HANDBAGS</h1></span>
+      </a>
+  </div>
+
+   <div id="wBox2" class="womensTile box">
+      <a href="331181" class="fullImgLink" data-tag="12.26WDP_Sale_WSale">
+        <img alt="SHOP OUR WINTER SALE" src="/wcsstore/CommonFossil/images/shell/spacer.gif" data-original="/wcsstore/CommonFossil/images/common/dept/womens/0_2sale.jpg" />
+        <span class="cta"><h1 class="fit" min="17px">SHOP OUR WINTER SALE</h1></span>
+      </a>      
+  </div>
+
+   <div id="wBox3" class="womensTile box">
+      <a href="331146" class="fullImgLink" data-tag="12.26WDP_ShopWallets_Wwallets">
+        <img alt="SHOP WALLETS" src="/wcsstore/CommonFossil/images/shell/spacer.gif" data-original="/wcsstore/CommonFossil/images/common/dept/womens/1_1.jpg" />
+        <span class="cta"><h1 class="fit" min="17px">SHOP WALLETS</h1></span>
+      </a>
+  </div>
+
+  <div id="wBox4" class="womensTile box">
+       <a href="331152" class="fullImgLink" data-tag="12.26WDP_ShopJewelry_Jewelry">
+        <img alt="SHOP JEWELRY" src="/wcsstore/CommonFossil/images/shell/spacer.gif" data-original="/wcsstore/CommonFossil/images/common/dept/womens/1_2.jpg" />
+        <span class="cta"><h1 class="fit" min="17px">SHOP JEWELRY</h1></span>
+      </a>
+  </div> 
+</div><!-- end rightCol -->
+</div>
+
+<!-- TAGS ELEMENTS IN EACH REFRESH FOR COREMETRICS-->
+<script type="text/javascript">
+
+var router = 'department';
+
+//  DO NOT CHANGE FOLLOWING VARIABLE
+  trackingModule.pageName = 'womens';
+//  END DO NOT CHANGE VARIABLE
+
+//var threshold_config = [9,9,9,9,9,9];
+
+require(['FSwrapper','modules/homeAndDept/text_resizer'], function (FSwrapper,text_resizer) {
+  FSwrapper.execute(function(){
+      $(document).ready(function(){
+        text_resizer.initialize(675);
+      //TAG CONTENT SECTION
+      $content = $('div#tiles');
+      $content.tagIt({elementCategory: 'Womens Department'});
+  });
+  });
+});
+</script>

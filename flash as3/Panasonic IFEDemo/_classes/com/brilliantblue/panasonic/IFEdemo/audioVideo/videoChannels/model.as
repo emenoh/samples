@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.audioVideo.videoChannels{	public class model extends com.brilliantblue.panasonic.IFEdemo.model	{				public function model () 		{																	}									}		}

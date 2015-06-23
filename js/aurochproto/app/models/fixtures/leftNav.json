@@ -1,0 +1,27 @@
+{
+
+	"menu" : [
+	{
+	"identifier" : "watchesDept"
+	,"name" : "Watches"
+	,"productsURL" : "/12052/en_US/shop/watches/"
+	}
+	,
+	{
+	"identifier" : "giftsDept"
+	,"name" : "Gifts"
+	,"productsURL" : "/12052/en_US/shop/gifts/"
+	}
+	,
+	{
+	"identifier" : "catalogDept"
+	,"name" : "Catalog"
+	,"productsURL" : "/12052/en_US/shop/catalog/"
+	}
+	
+	]
+}
+
+							
+
+

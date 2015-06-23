@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.common.files{		public class FileType	{		public static var UNKNOWN:String = "unknown";		public static var IMAGE:String = "image";		public static var AUDIO:String = "audio";		public static var PDF:String = "pdf";		public static var TEXT:String = "txt";	}	}

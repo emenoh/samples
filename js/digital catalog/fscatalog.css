@@ -1,0 +1,288 @@
+
+
+.catalogWrapper img {
+	border: none;
+	outline: none;
+}
+
+.FSCatalogloader{
+	width:70px;
+	height:70px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-35px 0px 0px -35px;
+	opacity:0.7;
+	z-index:1001;
+	background:#fff url(../../../images/shell/FSCatalog/loader.gif) no-repeat center center;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	-moz-box-shadow:0px 0px 5px #999;
+	-webkit-box-shadow:0px 0px 5px #999;
+	box-shadow:0px 0px 5px #999;
+}
+.catalogWrapper .bg_image img{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index:0;
+}
+.catalogWrapper .footer{
+	position:fixed;
+	top:10px;
+	right:10px;
+	z-index:999999;
+}
+.catalogWrapper .footer a{
+	color:#888;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #fff;
+	font-size:12px;
+	padding-right:20px;
+
+}
+.catalogWrapper .footer a:hover{
+	color:#000;
+}
+
+/* Preview Slider Gallery Style */
+
+.catalogWrapper  > * {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+.catalogWrapper .ps_container{
+	display:none;
+	margin:20px auto 0px auto;
+	position:relative;
+	overflow: visible;
+	background: #E7E2D1;
+}
+.catalogWrapper .ps_image_wrapper{
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;/*
+	-moz-box-shadow:0px 0px 5px #999;
+	-webkit-box-shadow:0px 0px 5px #999;
+	box-shadow:0px 0px 5px #999;*/
+}
+.catalogWrapper .ps_image_wrapper img{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.catalogWrapper .ps_prev,
+.catalogWrapper .ps_next{
+	width:20px;
+	height:34px;
+	position:absolute;
+	top:50%;
+	margin-top:-17px;
+	cursor:pointer;
+	/*opacity:0.5;*/
+}
+.catalogWrapper .ps_prev{
+	background:transparent url(../../../images/shell/FSCatalog/prev.png) no-repeat top center;
+	left:-35px;
+}
+.catalogWrapper .ps_next{
+	background:transparent url(../../../images/shell/FSCatalog/next.png) no-repeat top center;
+	right:-35px;
+}
+.catalogWrapper .ps_prev:hover,
+.catalogWrapper .ps_next:hover{
+	opacity:0.9;
+}
+
+.catalogWrapper .ps_navWrapper {	
+background: #EEEDE2;
+padding-top: 15px;
+height: 25px;
+	-moz-box-shadow:0px 3px 5px rgba(0, 0, 0, .35);
+	-webkit-box-shadow:0px 3px 5px rgba(0, 0, 0, .35);
+	box-shadow:0px 3px 5px rgba(0, 0, 0, .35);
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";
+/* For IE 5.5 - 7 */
+	filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";	
+	border-bottom-right-radius:5px;
+-moz-border-radius-bottomright: 5px;
+-webkit-border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+-moz-border-radius-bottomleft: 5px;
+-webkit-border-bottom-left-radius:5px;
+
+}
+.catalogWrapper ul.ps_nav{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin:0px auto 10px auto;
+	position:relative;
+	display: inline-block;
+}
+
+*:first-child+html .catalogWrapper ul.ps_nav {display: block; width: 50%; text-align: center;}
+
+
+.catalogWrapper ul.ps_nav li{
+	float:left;
+	display: block;
+}
+.catalogWrapper ul.ps_nav li a {
+	display: inline;
+	/*text-indent:-9000px;*/
+	height:11px;
+	outline:none;
+	padding:0px 0px;
+	margin: 0px 4px;
+	text-decoration: none;
+	color: #AAA17D;
+	font-size: 10px;
+	/*background:transparent url(../../../images/shell/FSCatalog/dot.png) no-repeat top center;*/
+}
+.catalogWrapper ul.ps_nav li a:hover,ul.ps_nav li.selected a{
+	/*background-position:50% -11px;*/
+	text-decoration: underline;
+}
+.catalogWrapper ul.ps_nav li.ps_preview{
+	display:none;
+	width:122px;
+	height:91px;
+	top:-100px;
+	left:-54px;
+	position:absolute;
+}
+.catalogWrapper ul.ps_nav li.ps_preview span{
+	background:transparent url(../../../images/shell/FSCatalog/triangle.png) no-repeat top center;
+	width:15px;
+	height:6px;
+	position:absolute;
+	top:90px;
+	left:54px;
+}
+.catalogWrapper .ps_preview_wrapper{
+	width:112px;
+	height:80px;
+	border:5px solid #F2F2E7;
+	overflow:hidden;
+	position:relative;
+	-moz-box-shadow:0px 0px 5px rgba(0, 0, 0, .35);
+	-webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, .35);
+	box-shadow:0px 0px 5px rgba(0, 0, 0, .35);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";
+/* For IE 5.5 - 7 */
+	filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";	
+}
+
+.catalogWrapper ul.ps_nav li.ps_preview.single {
+width:66px;
+left:-26px; /*First item, next ones is leftDot - 0.5*wThis + 0.5*wDot, i.e. second one is (16 - 42.5 + 8) = -18.5 */
+	
+}
+.catalogWrapper ul.ps_nav li.ps_preview.single span{
+	left:26px;
+}
+.catalogWrapper ul.ps_nav li.ps_preview.single .ps_preview_wrapper {
+	width:56px;
+}
+
+.catalogWrapper .ps_preview_wrapper img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: auto;
+	height: 80px;
+}
+
+.catalogWrapper {position: relative; z-index: 1000; width: auto; margin: 0px auto; height: 0px; overflow: visible;}
+.catalogContainer{position: absolute; width: 100%; top: 0px; height: 0px; overflow: visible; z-index: 1000; text-align: center;}
+
+*:first-child+html .catalogContainer { left: 0px;}
+
+
+.FSCatClose {
+background: transparent url(../../../images/shell/FSCatalog/closeButton.png) no-repeat top center;
+width: 17px;
+height: 17px;
+right: -8px;
+top: -8px;
+position: absolute;
+cursor: pointer;
+	-moz-box-shadow:0px 0px 2px rgba(0, 0, 0, .35);
+	-webkit-box-shadow:0px 0px 2px rgba(0, 0, 0, .35);
+	box-shadow:0px 0px 2px rgba(0, 0, 0, .35);	
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";
+/* For IE 5.5 - 7 */
+	filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";	
+	-moz-border-radius:8.5px;
+	-webkit-border-radius:8.5px;
+	border-radius:8.5px;
+	z-index: 2500;
+}
+
+.catalogWrapper .ps_container{
+	background: #EEEDE2;
+	-moz-box-shadow:0px 2px 5px rgba(0, 0, 0, .35);
+	-webkit-box-shadow:0px 2px 5px rgba(0, 0, 0, .35);
+	box-shadow:0px 2px 5px rgba(0, 0, 0, .35);
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";
+/* For IE 5.5 - 7 */
+	filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";	
+}
+
+.catOverlay {
+	z-index: 999;
+	position: fixed; background: #E7E2D1; opacity: 0.85; filter:alpha(opacity=85); top: 0px; right: 0px; left: 0px; bottom: 0px;
+	
+}
+
+.catTooltip {
+	border-radius:8.5px;
+	border: none;
+	background: #E7E2D1;
+	color: #595146;
+	padding: 10px 7px;
+	z-index: 1025;
+	opacity: 1;
+	margin-left: 15px;
+	margin-top: 15px;
+	font-size: 9px;
+	-moz-box-shadow:0px 0px 7px rgba(0, 0, 0, .25);
+	-webkit-box-shadow:0px 0px 7px rgba(0, 0, 0, .25);
+	box-shadow:0px 0px 7px rgba(0, 0, 0, .25);
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";
+/* For IE 5.5 - 7 */
+	filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#CCCCCC')";	
+}
+
+.catTooltip strong {
+display: block;
+margin-top: 5px;
+
+}
+
+#iOSAlert {
+    background: none repeat scroll 0 0 #E8E8E8;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    position: absolute;
+    top: 25px;
+    width: 80%;
+    z-index: 9999;
+    -moz-box-shadow: 0px 5px 4px #888;
+    -webkit-box-shadow: 0px 5px 4px #888;
+    box-shadow: 0px 5px 4px #888;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#iOSAlert a {
+    color: black;
+}

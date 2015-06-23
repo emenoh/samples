@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.inflightServices.shopping{	public class model extends com.brilliantblue.panasonic.IFEdemo.model	{				public function model () 		{																	}						private function reset() {		}		public function totalPrice() {		}		public function addItem() {		}		public function removeItem() {		}					}		}

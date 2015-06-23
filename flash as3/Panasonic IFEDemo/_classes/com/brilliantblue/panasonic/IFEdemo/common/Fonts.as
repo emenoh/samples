@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.common{		import flash.display.*;	import flash.text.*;			public class Fonts extends Sprite	{		public function Fonts ()		{			Font.registerFont(ReflexBold);					}				}					}

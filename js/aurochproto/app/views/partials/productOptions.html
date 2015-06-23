@@ -1,0 +1,66 @@
+{{#hasColor}}
+<div class="color options">
+	{{#color}}
+		<a class="swatch{{#isDefault}} selected{{/isDefault}}{{^enabled}} disabled{{/enabled}} clearfix" data-color="{{{value}}}">
+				<img id="{{imageId}}" src="http://s7d2.scene7.com/is/image/FossilPartners/{{{ swatch }}}?$fossilResponsive_swatch$" alt="{{{value}}}">
+			<span></span>
+		</a>
+	{{/color}}
+</div>
+{{/hasColor}}
+
+{{#hasSize}}
+<div id="sizeSelect">
+	<ul class="size pdpSelect options">
+		<li class="selectParent">
+			<a class="pdpSelectLabel" href="javascript:void(0);">{{{labels.size}}}</a>
+			<div>
+				<ul class="sizeChart">
+					{{#size}}
+					<li class="sizeButton {{^enabled}}disabled{{/enabled}}">{{{value}}}</li>
+					{{/size}}
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+{{/hasSize}}
+
+
+{{#hasWaist}}
+<ul class="waist pdpSelect options">
+	<li class="selectParent">
+		<a class="pdpSelectLabel" href="javascript:void(0);">{{{labels.waist}}}</a>
+		<div>
+			<ul class="sizeChart">
+		{{#size}}
+				<li class="sizeButton {{^enabled}}disabled{{/enabled}}">{{{value}}}</li>
+		{{/size}}
+			</ul>
+
+		</div>
+	</li>
+</ul>
+{{/hasWaist}}
+
+{{#hasLength}}
+<ul class="waist pdpSelect options">
+	<li class="selectParent">
+		<a class="pdpSelectLabel" href="javascript:void(0);">{{{labels.length}}}</a>
+		<div>
+			<ul class="sizeChart">
+		{{#secondSize}}
+				<li class="sizeButton {{^enabled}}disabled{{/enabled}}">{{{value}}}</li>
+		{{/secondSize}}
+			</ul>
+
+		</div>
+	</li>
+</ul>
+{{/hasLength}}
+
+{{#outOfStock}}
+<div class="options color pdpSelect">
+	<p>{{{ labels.itemOutOfStock }}}</p>
+</div>
+{{/outOfStock}}

@@ -1,0 +1,119 @@
+
+            <div class="accountSection clearfix">
+                <div id="banner">
+                    <h2>{{page.heading}}</h2>
+                </div>
+            
+                <div class="accountContents">
+                    <div id="accountCol1">
+                        <h3><strong>{{strings.MA_AT_EXISTING_USER_LABEL}}</strong></h3>
+                        <p class="infoText"></p>
+                        <div id="loginForm" class="clearfix">
+                          <img id="secureLogin" src="/wcsstore/CommonFossil/images/shell/icons/secure.png" />
+                            <div id="loginFormInner" class="clearfix">
+                                                                
+                                        <!-- BEGIN FSFormErrorDisplay.jsp --><!-- END FSFormErrorDisplay.jsp -->
+
+                    <form method="post" name="Logon" class="validate" action="/en_US/shop/account/dashboard">
+                        <input type="hidden" name="langId" value="{{store.langId}}" />
+                        <input type="hidden" name="catalogId" value="{{store.catalogId}}" />
+                        <input type="hidden" name="storeId" value="{{store.storeId}}" />
+                        <input type="hidden" name="reLogonURL" value="LogonForm" />
+                        <input type="hidden" name="calculationUsageId" value="-1" />
+                        <input type="hidden" name="updatePrices" value="1" />
+                        <input type="hidden" name="rememberMe" value="true" />
+                        <input type="hidden" name="URL1" value="Logon" />
+                        <input type="hidden" name="previousPage" value="logon" />
+                        <input type="hidden" name="returnPage" value="" />
+                        <input type="hidden" name="myaccountform" value="logonform" />
+                        
+                        
+                                <input type="hidden" name="URL" value="LogonForm" />
+                            
+                        
+                        
+                        <input name="logonId" class="email required" type="text" id="loginEmail" value="" placeHolder="{{strings.FOSSIL_MYA_EMAIL_ADDRESS}}" />
+                        <input name="logonPassword" type="password" class="password required" id="loginPassword" placeHolder="{{strings.FOSSIL_MYA_PASSWORD}}" />
+                        
+                        
+                    
+                    <div id="forgotPasswordWrapper">
+                        <a id="forgotPassword" href="/en_US/shop/account/forget_password">{{strings.MA_AT_FORGOT_PASSWORD_LABEL}}</a>
+                    </div>
+                    <div class="formButtons">
+                    <button type="submit" id="loginButton" class="primary">
+                        <span class="buttonLeft">
+    <span class="buttonRight">
+        <span class="buttonContent">
+            {{strings.STORE_FORM_SIGN_IN_ACTION_LABEL}}
+        </span>
+    </span>
+</span>
+                    </button>
+                    </div>
+                </form>
+            
+                <form name="signUp" class="validate" method="post" action="/en_US/shop/account/register">
+                    <input type="hidden" name="rememberMe" value="true" />                  
+                    <input type="hidden" name="new" value="Y" />
+                    <input type="hidden" name="langId" value="{{store.langId}}" />
+                    <input type="hidden" name="catalogId" value="{{store.catalogId}}" />
+                    <input type="hidden" name="storeId" value="{{store.storeId}}" />
+                    <input type="hidden" name="email1" />               
+                    <input type="hidden" name="optInsignupmailingListId" value="55766" />              
+                    <input type="hidden" name="email2"/> 
+                    <input type="hidden" name="signupEmail"/>                                   
+                    <input type="hidden" name="errorViewName" value="UserRegistrationView" /> 
+                    <input type="hidden" name="myaccountform" value="registrationform" />
+                    <input type="hidden" name="formname" value="registration" />
+                    
+                    
+                    
+                    <input type="hidden" name="URL" value="LogonForm"  />
+                    
+                    <input type="hidden" name="challengeQuestion" value="-" />
+                    <input type="hidden" name="challengeAnswer" value="-"/>
+                    <input type="hidden" name="mailingListId" value="55766" />
+                    
+                    
+                    
+                    <input name="logonId" class="email required" type="hidden" id="regEmail" value=""/>
+                    <input name="logonPassword" type="hidden" class="password required wide" id="regPassword" />
+                    <input name="logonPasswordVerify" type="hidden" class="required" id="regConfirmPassword" />
+                    <div class="formButtons">
+                    <button type="submit"  class="primary"  id="infoSubmitButton"  name="infoSubmitButton">
+                       <span class="buttonLeft">
+    <span class="buttonRight">
+        <span class="buttonContent">
+            {{strings.STORE_FORM_REGISTER_ACTION_LABEL}}
+        </span>
+    </span>
+</span>
+                    </button>
+                    </div>
+                        <div id="registerTip">
+                            <img id="needHelp" src="/wcsstore/CommonFossil/images/shell/icons/registerHelp.png" />
+                            <div id="tipCopy">{{{strings.MA_AT_NEW_USER_TIP}}}</div>
+                        </div>
+                    <div class="emailSignUp">
+                        <input type="checkbox" id="emailOptIn" value="true" name="signup_email"/>
+                        <label for="emailOptIn" class="checkboxLabel">
+                        {{{strings.FOSSIL_MYA_USER_REG_MESSAGE}}}
+                        </label>
+                    </div>
+                </form>
+                                    
+                            
+            
+                            </div>
+                        </div><!-- //End Login Form-->
+                        <div id="loginCopy" class="clearfix">   
+                            {{>myAccount_registered_benefits}}
+                    
+                        </div>
+                    </div>
+                </div><!--//End accountContents-->
+                <div id="accountCol2">
+                {{>myAccount_ccInfo}}
+                </div>
+                </div>

@@ -1,0 +1,88 @@
+{
+	"CatalogGroupView": [
+		{
+			"identifier": "FSSCWomensShopNewArrivals",
+			"name": "New Arrivals",
+			"parentCatalogGroupID": [
+				"331182"
+			],
+			"productsURL": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/productview\/byCategory\/331183",
+			"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/331183",
+			"shortDescription": "New Arrivals",
+			"thumbnail": "",
+			"uniqueID": "331183"
+		},
+		{
+			"identifier": "FSSCWomensShopRoseTones",
+			"name": "A Touch Of Rose",
+			"parentCatalogGroupID": [
+				"331182"
+			],
+			"productsURL": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/productview\/byCategory\/331194",
+			"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/331194",
+			"shortDescription": "",
+			"thumbnail": "",
+			"uniqueID": "331194"
+		},
+		{
+			"identifier": "FSSCWomensShopLookbook",
+			"name": "Look Book",
+			"parentCatalogGroupID": [
+				"331182"
+			],
+			"productsURL": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/productview\/byCategory\/331208",
+			"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/331208",
+			"shortDescription": "Look Book",
+			"thumbnail": "",
+			"uniqueID": "331208"
+		},
+		{
+			"identifier": "FSSCWomensShopWatchBar",
+			"name": "Watch Bar",
+			"parentCatalogGroupID": [
+				"331182"
+			],
+			"productsURL": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/productview\/byCategory\/362584",
+			"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/362584",
+			"shortDescription": "",
+			"thumbnail": "",
+			"uniqueID": "362584"
+		},
+		{
+			"identifier": "FSSCWomensShopCharmbuilder",
+			"name": "Charm Builder",
+			"parentCatalogGroupID": [
+				"331182"
+			],
+			"productsURL": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/productview\/byCategory\/370083",
+			"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/370083",
+			"shortDescription": "",
+			"thumbnail": "",
+			"uniqueID": "370083"
+		},
+		{
+			"identifier": "FSSCWomensShopPreview",
+			"name": "Spring Preview",
+			"parentCatalogGroupID": [
+				"331182"
+			],
+			"productsURL": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/productview\/byCategory\/375085",
+			"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/375085",
+			"shortDescription": "",
+			"thumbnail": "",
+			"uniqueID": "375085"
+		}
+	],
+	"MetaData": [
+		{
+			"metaData": "1",
+			"metaKey": "price"
+		}
+	],
+	"recordSetComplete": "true",
+	"recordSetCount": "6",
+	"recordSetStartNumber": "0",
+	"recordSetTotal": "6",
+	"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byParentCategory\/331182",
+	"resourceName": "categoryview"
+}

@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.info.help{	public class model extends com.brilliantblue.panasonic.IFEdemo.model	{				public function model () 		{																	}									}		}

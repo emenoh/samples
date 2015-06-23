@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo{	public class model	{					public function model () 		{											}			}		}

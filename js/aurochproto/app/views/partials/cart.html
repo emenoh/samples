@@ -1,0 +1,83 @@
+<div id="shoppingCart">
+        
+       	<div id="cartButton">            
+            <a href="https://www.fossil.com/webapp/wcs/stores/servlet/OrderCalculate?updatePrices=1&amp;calculationUsageId=-1&amp;calculationUsageId=-2&amp;calculationUsageId=-3&amp;calculationUsageId=-4&amp;calculationUsageId=-7&amp;langId=-1&amp;storeId=12052&amp;catalogId=25005&amp;orderId=.&amp;URL=OrderItemDisplay" title="Shopping Bag">
+            <span class="buttonTitle">{{shoppingCart.header}}</span>
+             <span id="bagQuantityWrapper">(<span id="global_bag_qty">{{cartContents.quantity}}</span>)</span>                
+            </a>
+        </div>
+        <div id="cartDropdownShadow"></div>
+        <div id="cartDropdown" style="display: none; ">
+        	<div id="cartDropdownContent">
+	            <div id="lastProd">                          
+	                <div id="bagProdHeader">
+	                    <span id="bagProdHeaderText">
+	                        {{shoppingCart.lastItemLabel}}
+	                    </span>
+	                </div>
+	                
+	                        <a id="bag_prod_img" href="{{cartContents.lastItem.uri}}">
+	                    
+	                
+					<img src="{{cartContents.lastItem.imgSrc}}" border="0" alt="JA4255221" title="JA4255221">
+	                </a>
+	                
+	                <div id="bagProdInfo">
+	                	<p id="cartBrandName">
+	                		
+	                	</p>
+	                    <p id="prodName">
+	                    	
+			                        <a id="pdpNameLink" href="{{lastItem.uri}}">
+			                    {{cartContents.lastItem.name}}
+	                        </a>
+	                    </p>                
+	                    <ul>
+	                        <li>{{shoppingCart.styleLabel}} 
+	                           <span id="bagStyleNum">
+	                                {{cartContents.astItem.style}}
+	                            </span>
+	                        </li>
+	                        
+	                        <li>{{shoppingCart.priceLabel}}
+	                            <span id="bagPrice">
+	                            	
+		<span id="price">{{store.currency}}{{cartContents.lastItem.price}}</span>
+	
+	                            </span>
+	                        </li>
+	                    </ul>
+	                    
+	                    <p id="bagSubtotal">{{shoppingCart.subTotalLabel}}</p>
+	                    <p id="bagSub">{{store.currency}}{{cartContents.subtotal}}</p>
+	                    <a href="https://www.fossil.com/webapp/wcs/stores/servlet/OrderCalculate?updatePrices=1&amp;calculationUsageId=-1&amp;calculationUsageId=-2&amp;calculationUsageId=-3&amp;calculationUsageId=-4&amp;calculationUsageId=-7&amp;langId=-1&amp;storeId=12052&amp;catalogId=25005&amp;orderId=.&amp;URL=OrderItemDisplay"><div class="viewBag">
+	                       <span class="buttonLeft"><span class="buttonRight"><span class="buttonContent">{{shoppingCart.viewBagLabel}}</span></span></span>
+	                    </div>
+	                    </a>
+	                </div>
+	            </div>
+	        </div>
+            <div id="noProd">
+                <p>
+                    <strong>0 {{shoppingCart.numberItemsLabel}}</strong>
+                    {{shoppingCart.inCartLabel}}
+                </p>
+            </div>
+            <div class="espotWrapper">
+				<div class="espot">
+
+        <a href="//www.fossil.com/wcsstore/Fossil/images/en_US/shippingoptions/freeShipPopup.jpg" class="eSpotDetailsGlobal">
+<img src="//www.fossil.com/wcsstore/Fossil/images/en_US/shippingoptions/freeShipping.jpg" border="0" class="fullbleed">
+</a>
+
+				</div>
+			</div>
+			<div class="espotWrapper2">
+				<div class="espot">
+
+				</div>
+			</div>
+            <div class="menuBar"></div>
+            
+        </div>
+	</div>

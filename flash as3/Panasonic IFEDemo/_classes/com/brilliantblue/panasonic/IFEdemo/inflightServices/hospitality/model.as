@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.inflightServices.hospitality{	public class model extends com.brilliantblue.panasonic.IFEdemo.model	{				public function model () 		{																	}									}		}

@@ -1,0 +1,1 @@
+﻿package com.brilliantblue.panasonic.IFEdemo.audioVideo.musicChannels{	import flash.display.MovieClip;	import com.brilliantblue.panasonic.IFEdemo.view;			public class view	{				public function view () 		{																	}									}		}

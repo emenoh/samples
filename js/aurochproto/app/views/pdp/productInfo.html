@@ -1,0 +1,147 @@
+<div id="imageViewer" class="imageViewer">
+  <div id="mainImage" class="mainImage productImage">
+    <img class="active QL_{{{product.image}}}" src="http://s7ondemand7.scene7.com/is/image/FossilPartners/{{{product.image}}}_main?$fossilResponsive_pdpdetail$&amp;{{{product.sku}}}&amp;wid=584&amp;hei=486&amp;resMode=sharp2&amp;op_sharpen=1&amp;qlt=75" />
+  </div>
+</div>
+
+<div class="details">
+  <div id="productContainer">
+
+    <div id="basicInfo" class="clearfix">
+      <div id="productName">
+        {{{product.name}}}
+
+        {{#product.isNew}}
+          <span id="newLabel">
+            {{{labels.ql.newLabel}}}
+          </span>
+        {{/product.isNew}}
+        {{#product.isSale}}
+          <span id="saleLabel">
+            {{{product.saleLabel}}}
+          </span>
+        {{/product.isSale}}        
+      </div>
+
+      {{^store.isNonCommerce}}
+      <div id="productPrice">
+        <div class="price">
+          {{#labels.ql.currencyInFront}}
+            <span class="currencymarker">{{{labels.ql.currencyMarker}}}</span>{{#product.isSale}}{{{product.salePrice}}}{{/product.isSale}}{{^product.isSale}}{{{product.price}}}{{/product.isSale}} {{{labels.ql.vatText}}}
+          {{/labels.ql.currencyInFront}}
+          {{^labels.ql.currencyInFront}}
+            {{#product.isSale}}{{{product.salePrice}}}{{/product.isSale}}{{^product.isSale}}{{{product.price}}}{{/product.isSale}}<span class="currencymarker">{{{labels.ql.currencyMarker}}}</span> {{{labels.ql.vatText}}}
+          {{/labels.ql.currencyInFront}}
+        </div>
+      </div><!--// End productPrice-->
+      {{/store.isNonCommerce}}
+
+      <div id="styleContainer">
+        <div id="styleLabel" class="optionsLabel">{{{labels.ql.style}}}&nbsp;</div>
+        <div id="styleValue" class="optionsValue">{{{product.styleNumber}}}</div>
+      </div><!--// End styleContainer-->
+
+      <div id="colorContainer">
+        <div id="colorLabel" class="optionsLabel">{{{labels.ql.color}}}&nbsp;</div>
+        <div id="colorValue" class="optionsValue"></div>
+      </div><!--// End styleContainer-->
+
+    </div><!--// End basicInfo-->
+
+    <div id="productOptions" class="productOptions">
+      <form name="OrderItemAddForm" action="/webapp/wcs/stores/servlet/AddToBagNoScript" method="post" id="OrderItemAddForm">
+        <input type="hidden" value="OrderCalculate?URL=OrderItemDisplay" name="URL" id="URL_hidden">
+        <input type="hidden" id="quantitySelect" name="quantity" value="1">
+        <input type="hidden" id="color_attrName" name="" value="">
+        <input type="hidden" id="color_attrValue" name="" value="">
+        <input type="hidden" id="size_attrName" name="" value="">
+        <input type="hidden" id="size_attrValue" name="" value="">
+        <input type="hidden" id="secondSize_attrName" name="" value="">
+        <input type="hidden" id="secondSize_attrValue" name="" value="">
+        <input type="hidden" name="storeId" value="{{{store.storeId}}}">
+        <input type="hidden" name="langId" value="{{{store.langId}}}">
+        <input type="hidden" name="catalogId" value="{{{store.catalogId}}}"> 
+        <input type="hidden" name="pn" value="c">
+        <input type="hidden" name="rec" value="">
+        <input type="hidden" name="pa" value="t">        
+        <input id="errorViewName_hidden" type="hidden" name="errorViewName" value="ProductDisplayView">
+        <!-- End Here -->
+        
+        {{#inputs}}
+          <input type="{{{type}}}" id="{{{id}}}" name="{{{name}}}" value="{{{value}}}">
+        {{/inputs}}
+
+        <div id="OrderItemAddFormActions" class="formActions">  
+             
+          <button class="primary primaryBtn" type="submit" name="addToBagSubmitButton" value="addCart" id="addToBagSubmitButton"> 
+            <span class="buttonContent">{{{labels.addToBag}}}</span>
+          </button>
+
+          <a class="primary primaryBtn" name="addToWishlistSubmitButton" value="addWishlist" id="addToWishlistButton"> 
+            <span class="buttonContent">{{{labels.ql.addToWishlist}}}</span>
+          </a>
+
+        </div><!--// End OrderItemAddFormActions -->
+
+        <div id="pdpCheckoutButtonLinkWrapper">
+          <div class="inner">
+            <div class="itemAdded">
+              <span class="deco"><img src="/wcsstore/CommonFossil/images/shell/pdp/itemAddedCheck.png" alt="" /></span>
+              <span class="addedlabel">{{{labels.ql.itemAdded}}}</span>
+            </div>
+            <div class="itemAddedButton">
+              <a href="/webapp/wcs/stores/servlet/OrderCalculate?storeId={{{store.storeId}}}&amp;catalogId={{{store.catalogId}}}&amp;langId={{{store.langId}}}&amp;updatePrices=1&amp;calculationUsageId=-7&amp;orderId=.&amp;URL=OrderItemDisplay" class="pdpCheckoutButton primaryBtn" id="pdpCheckoutButtonLink">
+                <span class="buttonLeft">
+                  <span class="buttonRight">
+                    <span class="buttonContent">{{{labels.checkout}}}</span>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div><!--// End productOptions-->
+
+    <div id="productAccordion">
+      <h4 class="sectionLabel descLabel active">{{{labels.ql.description}}}<span class="toggle"></span></h4>
+      <div class="content descText active">{{{product.longDescription}}}</div>
+
+      <h4 class="sectionLabel detailsLabel">{{{labels.ql.details}}}<span class="toggle"></span></h4>
+      <div class="content detailsText">
+        <ul>
+        {{#properties}}
+          <li><span class="label">{{title}}</span> <span class="copy">{{text}}</span></li>
+        {{/properties}}          
+        </ul>
+      </div>
+
+      <h4 class="sectionLabel sizeLabel">{{{labels.ql.sizeChartFitGuide}}}<span class="toggle"></span></h4>
+      <div class="content sizeText">
+        <div class="sizeSlot">{{{fillslots.sizeText}}}</div>
+      </div>
+
+      <h4 class="sectionLabel returnsLabel">{{{labels.ql.returns}}}<span class="toggle"></span></h4>
+      <div class="content returnsText">
+        <div class="shipSlot">{{{fillslots.shippingText}}}</div>
+        <div class="returnSlot">{{{fillslots.returnText}}}</div>
+      </div>                  
+    </div><!-- End productAccordion -->
+
+    <div id="productRecs">
+      <h4 class="sectionLabel ioLabel">{{{labels.ql.ioLabel}}}</h4>
+      <div class="content ioText">
+        <div id="io_zone"></div>
+      </div>
+    </div> <!-- End productRecs -->
+
+    <div id="productRecents">
+      <h4 class="sectionLabel recentLabel">{{{labels.ql.recents}}}<span class="toggle"></span></h4>
+      <div class="content recentText">
+        <div id="io_recent_zone">IO Generated Recently Viewed?</div>
+      </div>
+    </div> <!-- End productRecents -->
+
+  </div><!--// End productContainer -->
+</div>

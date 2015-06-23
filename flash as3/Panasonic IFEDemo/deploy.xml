@@ -1,0 +1,33 @@
+<project name="3511_Panasonic_Generic_IFE_Demo.deploy" default="deploy" basedir=".">
+    <!-- Deploy all the sub files -->
+    <target name="deploy" description="package up all the javascript files into a deployable library">
+        <copy todir="../../3511_Panasonic_Generic_IFE_Demo_deploy/" verbose="yes" >
+            <fileset dir="." casesensitive="yes" >
+              <include name="js/**"/>
+              <include name="*.js"/>
+              <include name="images/**"/>
+              <include name="css/**"/>
+              <include name="xml/**"/>
+              <include name="*.swf"/>
+              <include name="macro.xml"/>
+              <include name="*.html"/>
+              <include name="mwfs.exe"/>              
+              <modified/>
+            </fileset>
+        </copy>
+    	 <copy todir="../../_panasonic/" verbose="false" overwrite="true">
+            <fileset dir="." casesensitive="yes" >
+              <include name="js/**"/>
+              <include name="*.js"/>
+              <include name="images/**"/>
+              <include name="css/**"/>
+              <include name="xml/**"/>
+              <include name="*.swf"/>
+              <include name="macro.xml"/>
+              <include name="*.html"/>
+              <include name="mwfs.exe"/>   
+            </fileset>
+        </copy>
+    </target>
+</project>
+

@@ -1,0 +1,14 @@
+{
+	"cart" : {
+	  "quantity" : "7"
+	, "subtotal" : "247.00"
+	, "lastItem" : {
+		"uri" : "http://www.fossil.com/en_US/shop/adjustable_charm_bracelet-ja4255p.html?orderId=.&amp;parent_category_rn=&amp;departmentCategoryId=&amp;pageFlow=shopCart&amp;itemId=22226736&amp;imagePath=JA4255221"
+		, "imgSrc" : "http://s7ondemand7.scene7.com/is/image/FossilPartners/JA4255221_main?$fossilResponsive_minicart$"
+		, "name" : "Adjustable Charm Bracelet"
+		, "style" : "JA4255221"
+		, "price" : "26.00"
+		}
+	}
+}
+	

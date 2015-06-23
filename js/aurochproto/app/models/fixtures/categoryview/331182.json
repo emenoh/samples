@@ -1,0 +1,35 @@
+{
+	"CatalogGroupView": [
+		{
+			"fullImage": "",
+			"fullImageAltDescription": "",
+			"identifier": "FSSCWomensShop",
+			"longDescription": "",
+			"metaDescription": "",
+			"metaKeyword": "",
+			"name": "Features",
+			"parentCatalogGroupID": [
+				"331097"
+			],
+			"productsURL": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/productview\/byCategory\/331182",
+			"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/331182",
+			"shortDescription": "",
+			"thumbnail": "",
+			"title": "",
+			"uniqueID": "331182",
+			"xcatgroup_Identifier": "FSSCWomensShop"
+		}
+	],
+	"MetaData": [
+		{
+			"metaData": "1",
+			"metaKey": "price"
+		}
+	],
+	"recordSetComplete": "true",
+	"recordSetCount": "1",
+	"recordSetStartNumber": "0",
+	"recordSetTotal": "1",
+	"resourceId": "http:\/\/ussgwcplw00.fossil.com\/wcs\/resources\/store\/12052\/categoryview\/byId\/331182",
+	"resourceName": "categoryview"
+}

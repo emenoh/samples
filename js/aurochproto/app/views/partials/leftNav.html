@@ -1,0 +1,47 @@
+{{#leftNav}}
+<ul>
+{{#menu}}
+<li class="leftNavGroup">
+  <a id="{{identifier}}" href="{{productsURL}}" class="menuLabel menuTrigger {{selectedDept}}"><span>{{name}}</span></a>
+  <ul class="accordion">
+    {{#menu}}
+	<li class="leftNavSection">
+	<span>{{name}}</span>
+	</li>
+	    {{#menu}}
+			<li id="{{identifier}}"><a href="{{productsURL}}">{{name}}</a>
+			{{#subMenu}}
+	  		<div class="subMenu">
+				  <ul>
+				    {{#menu}}
+				    <li id="{{identifier}}">
+				      <a href="{{productsURL}}">{{name}}</a>
+				    </li>
+				    {{/menu}}
+				  </ul>
+			</div>
+			{{/subMenu}}
+			</li>
+	    {{/menu}}
+    {{/menu}}
+    </ul>
+  </li>
+  {{/menu}}
+</ul>
+<ul>
+ {{#extras}}
+ <li class="leftNavGroup">
+  <a id="{{identifier}}" href="{{productsURL}}" class="menuLabel"><span>{{name}}</span></a>
+</li>
+ {{/extras}}
+</ul>
+<ul class="bottomMenu">
+	<li class="leftNavGroup">
+	<a class="menuLabel" href="/lifestyle">{{strings.FLS1}}<span class="bull"> • </span>{{strings.FLS2}}<span class="bull"> • </span>{{strings.FLS3}}</a>
+	</li>
+	<li class="leftNavGroup">
+	<a class="menuLabel" href="http://blog.fossil.com/">{{strings.blog}}</a>
+	</li>
+</ul>
+
+{{/leftNav}}

@@ -1,0 +1,243 @@
+{
+	"store" : {
+		"storeId" : "12052"
+		,"catalogId" : "25005"
+		,"langId" : "-1"
+		,"categoryId" : "331097"
+		,"pageHeading" : "New Arrivals"
+		,"deptId" : "331097"
+		,"uri" : "http://www.fossil.com/en_US/shop/women/features/new_arrivals.html"
+		,"currency" : "$"
+		,"newLabel" : "NEW"
+		}
+	,"shell" : {
+		"leftNav" : {
+			"shop" : "Shop"
+			,"womenDept" : "Women"
+			,"menDept" : "Men"
+			,"features" : "Features"
+			,"categories" : "Categories"
+			,"watches" : "Watches"
+			,"gifts" : "Gifts"
+			,"catalog" : "Catalog"
+			,"FLS1" : "Fossil"
+			,"FLS2" : "Life"
+			,"FLS3" : "Style"
+			,"blog" : "Blog"
+			,"viewAll" : "View All"
+
+		}
+		,"myAccount" : {
+			"heading" : "My Account"
+			,"userHeading" : "My Account"
+			,"signIn" : "Sign In"
+			,"signInlink" : "/en_US/shop/account/login"
+			,"myProfile" : "My Information"
+			,"myProfileLink" : "/en_US/shop/account/profile"
+			,"orderTrack" : "Order Tracking"
+			,"orderTrackLink" : "/en_US/shop/account/orderhistory"
+			,"wishlist" : "Wish List"
+			,"wishlistLink" : "/en_US/shop/account/wishlist"
+			,"addressBook" : "Address Book"
+			,"addressBookLink" : "/en_US/shop/account/addressbook"
+			,"orderHistory" : "Order History"
+			,"orderHistoryLink" : "/en_US/shop/account/orderhistory"
+			,"savedCards" : "Saved Cards"
+			,"savedCardsLink" : "/en_US/shop/account/savedcards"
+			,"dashboard" : "Dashboard"
+			,"dashboardLink" : "/en_US/shop/account/dashboard"
+			,"myProducts" : "My Products"
+			,"myProductsLink" : "/en_US/shop/account/myproducts"
+		}
+		,"myAccountLoggedIn" : {
+			"heading" : "My Account"
+			,"userHeading" : "Test User's Account"
+			,"signIn" : "Sign Out"
+			,"signInlink" : "/webapp/wcs/stores/servlet/Logoff?langId=-1&storeId=12052&catalogId=10052"
+			,"myProfile" : "My Information"
+			,"myProfileLink" : "/webapp/wcs/stores/servlet/MyInformationView?langId=-1&storeId=12052&catalogId=10052"
+			,"orderTrack" : "Order Tracking"
+			,"orderTrackLink" : "/webapp/wcs/stores/servlet/OrderTrackingView?langId=-1&storeId=12052&catalogId=10052&nav=custCareNav&page=orderTracking"
+			,"wishlist" : "Wish List"
+			,"wishlistLink" : "/webapp/wcs/stores/servlet/InterestItemDisplay?langId=-1&storeId=12052&catalogId=10052&listId=."
+			,"addressBook" : "Address Book"
+			,"addressBookLink" : "/webapp/wcs/stores/servlet/AddressBookForm?langId=-1&storeId=12052&catalogId=10052"
+			,"orderHistory" : "Order History"
+			,"orderHistoryLink" : "/webapp/wcs/stores/servlet/TrackOrderStatus?langId=-1&storeId=12052&catalogId=10052"
+			,"savedCards" : "Saved Cards"
+			,"savedCardsLink" : "/webapp/wcs/stores/servlet/WalletEditView?langId=-1&storeId=12052&catalogId=10052"
+		}
+		,"localeMenu" : {
+			"country" : "Country"
+			,"americas" : "Americas"
+			,"en_US" : "United States"
+			,"en_USLink" : "http://www.fossil.com"
+			,"eu" : "Europe"
+			,"de_AT" : "Austria"
+			,"de_ATLink" : "http://www.fossil.at"
+			,"fr_FR" : "France"
+			,"fr_FRLink" : "http://www.fossil.fr"
+			,"de_DE" : "Germany"
+			,"de_DELink" : "http://www.fossil.de"
+			,"it_IT" : "Italy"
+			,"it_ITLink" : "http://fossil.it"
+			,"en_GB" : "United Kingdom"
+			,"en_GBLink" : "http://www.fossil.co.uk"
+			,"af" : "Africa"
+			,"en_ZA" : "South Africa"
+			,"en_ZALink" : "http://www.fossil.co.za"
+			,"ap" : "Asia Pacific"
+			,"en_AU" : "Australia"
+			,"en_AULink" : "http://www.fossil.com.au"
+			,"zh_CN" : "China"
+			,"zh_CNLink" : "http://www.fossilchina.cn"
+			,"ja_JP" : "Japan"
+			,"ja_JPLink" : "http://www.fossil.co.jp"
+			,"ko_KR" : "Korea"
+			,"ko_KRLink" : "http://www.fossil.co.kr"
+		}
+		, "shoppingCart" : {
+			"header" : "Shopping Bag"
+			,"lastItemLabel" : "Last Item Added"
+			,"styleLabel" : "Style #:"
+			,"priceLabel" : "Price:"
+			,"subTotalLabel" : "SUBTOTAL"
+			,"viewBagLabel" : "VIEW BAG"
+			,"numberItemsLabel" : "items"
+			,"inCartLabel" : "are in your shopping bag."
+		}
+		,"storeLocator" : {
+			"label" : "Store Locator"
+			,"link" : "http://storelocator.fossil.com/fusionMap/?loc=us"
+		}
+		,"refinery" : {
+			"narrowByLabel" : "Narrow By:"
+			,"clearAllLabel" : "Clear All"
+			,"sortByLabel" : "Sort By"
+			,"sortOptions" : [
+				{"label" : "Recommended","param" : "Ns=&Nso=1"}
+				,{"label" : "Price High to Low","param" : "Ns=p_min_price&Nso=1"}
+				,{"label" : "Price Low to High","param" : "Ns=p_min_price&Nso=-1"}
+				,{"label" : "Newest","param" : "Ns=p_added_date&Nso=1"}
+				,{"label" : "Best Seller","param" : "Ns=p_order_history&Nso=1"}
+				,{"label" : "Highest Rated","param" : "Ns=p_rating&Nso=1"}
+			]
+			
+		}
+		, "footer" : {
+				"storeId" : "12052",
+				"langId" : "-1",
+				"catalogId" : "25005",
+				"h1_customerCare" : "Customer Care",
+				"h1_customerCareLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_howtoOrder",
+					"h2_orderInfo" : "Order Info",
+						"howToOrder" : "How to Order",
+						"howToOrderLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_howtoOrder",
+						"orderTracking" : "OrderTracking",
+						"orderTrackingLink" : "/webapp/wcs/stores/servlet/OrderTrackingView?page=customerCare_orderTracking",
+						"shippingPolicy" : "Shipping Policy",
+						"shippingPolicyLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_shippingPolicy",
+						"paymentOptions" : "Payment Options",
+						"paymentOptionsLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_paymentOptions",
+						"ccSafeguard" : "Credit Card Safeguard",
+						"ccSafeguardLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_creditcardSafe",
+					"h2_productInfo" : "Product Info",
+						"watchInstructions" : "Watch Instructions",
+						"watchInstructionsLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_watchInstructions",
+						"orderLinksBands":	"Order Links & Bands",
+						"orderLinksBandsLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_orderlinks",
+						"warrantyRepairs":	"Warranty & Repairs",
+						"warrantyRepairsLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_warrantyRepairs",
+						"returnsExchanges" : "Returns & Exchanges",
+						"returnsExchangesLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_retExchanges",
+						"sizeChart" : "Size Chart & Fit Guide",
+						"sizeChartLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_sizeCharts",
+						"watchRepairForm" : "Watch Repair Form",
+						"watchRepairFormLink" : "/attachments/en_US/watch_repair_form.pdf",
+					"h2_getInTouch" : "Get In Touch",
+						"contactUs" : "Contact Us",
+						"contactUsLink" : "/webapp/wcs/stores/servlet/ContactUsView?",
+						"storeLocator" : "Store Locator",
+						"storeLocatorLink" : "http://storelocator.fossil.com/fusionMap/?loc=us",
+						"ideaSubmission" : "Idea Submission",
+						"ideaSubmissionLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_ideaSubmission",
+					"h2_stayConnected" : "Stay Connected",
+						"catalogRequest" : "Catalog Request",
+						"catalogRequestLink" : "/webapp/wcs/stores/servlet/CatalogRequestView?page=customerCare_catalogRequest",
+						"emailSignup" : "Email Signup",
+						"emailSignupLink" : "/webapp/wcs/stores/servlet/EmailSignUp?page=customerCare_emailSignup&guestURL=EmailSignupView&regURL=MyInformationView&errorView=",
+						"manageSubscriptions" : "Manage Subscriptions",
+						"manageSubscriptionsLink" : "/webapp/wcs/stores/servlet/EmailSignUp?page=customerCare_manageSubscriptions&guestURL=SubscriptionVerifyView&regURL=MyInformationView&errorView=",
+					"h2_businessSales" : "Business Sales",
+						"corporateSales" : "Corporate Sales",
+						"corporateSalesLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_corpSales",
+						"affiliateSales" : "Affiliate Sales",
+						"affiliateSalesLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_affiliateNetwork",
+						"distributors" : "Distributors",
+						"distributorsLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_distributors",
+					"h2_giftCards" : "Gift Cards",
+						"purchaseGiftCards" :"PURCHASE GIFT CARDS",
+						"purchaseGiftCardsLink" : "/webapp/wcs/stores/servlet/CategoryDisplay?page=customerCare_giftcards&categoryId=333099&N=0",
+				"h1_aboutUs" : "About Us",
+				"h1_aboutUsLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_companyProfile",
+					"h2_investorRelations" : "Investor Relations",
+						"companyProfile" : "Company Profile",
+						"companyProfileLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_companyProfile",
+						"earningsReleases" : "Earnings Releases",
+						"earningsReleasesLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_earnings",
+						"financials" : "Financials",
+						"financialsLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_financials",
+						"officerDirectors" : "Officers & Directors",
+						"officerDirectorsLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_officersDirectors",
+						"pressReleases" : "Press Releases",
+						"pressReleasesLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_pressReleases",
+						"stockSECInfo" : "Stock & SEC Info",
+						"stockSECInfoLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_stockSECInfo",
+						"proxyMaterials" : "Proxy Materials",
+						"proxyMaterialsLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_proxyMaterials",
+					"h2_corporateGovernance" : "Corporate Governance",
+						"corpGovGuidelines" : "Corporate Governance Guidelines",
+						"corpGovGuidelinesLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_corporateGovernance",
+						"guidelines" : "Guidelines",
+						"guidelinesLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_corpGuidelines",
+						"codeOfConduct" : "Fossil Code of Conduct and Ethics",
+						"codeOfConductLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_codeOfConduct",
+						"codeOfEthics" : "Code of Ethics for Senior Financial Officers",
+						"codeOfEthicsLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_ethicsForCFOs",
+						"auditCommCharter" : "Audit Committee Charter",
+						"auditCommCharterLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_auditCommitteeCharter",
+						"corpGovCommCharter" : "Nominating and Corp Governance Committee Charter",
+						"corpGovCommCharterLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_nominatingCommitteeCharter",
+						"compensationCommCharter" : "Compensation Committee Charter",
+						"compensationCommCharterLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_compensationCommitteeCharter",
+						"financeCommCharter" : "Finance Committee Charter",
+						"financeCommCharterLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_financeCommitteeCharter",
+						"caTransparencyAct" : "California Transparency in Supply Chains Act",
+						"caTransparencyActLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_supplyChainsAct",
+					"h2_connections" :"Connections",
+						"calendarEvents" : "Calendar of Events",
+						"calendarEventsLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_calendarEvents",
+						"webcasts" : "Webcasts",
+						"webcastsLink" : "/webapp/wcs/stores/servlet/ContentView?page=investorRelations_webcasts",
+				"h1_careers" : "CAREERS",
+				"h1_careersLink" : "/careers/",
+					"h2_careers" : "Careers",
+						"findCareer" : "FIND A FOSSIL CAREER",
+						"findCareerLink" : "/careers/",
+				"h1_legal" : "Legal/Privacy",
+					"h2_legalInfo" : "Legal Information",
+						"termsOfUse" : "Terms of Use",
+						"termsOfUseLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_termsofuse",
+						"privacySecurity" : "Privacy & Security Policy",
+						"privacySecurityLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_securityPrivacy",
+						"calPrivacy" : "Your California Privacy Rights",
+						"calPrivacyLink" : "/webapp/wcs/stores/servlet/ContentView?page=customerCare_securityPrivacy",
+						"calPrivacyLinkHash" : "#s-calRes",
+					"h2_copyright" : "©2012 FOSSIL, INC."
+			}
+
+
+	}
+
+
+	}
